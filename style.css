@@ -1,0 +1,32 @@
+h1{
+    color : brown;
+    padding: 5px;
+    margin: 20px;
+    border : solid #000000;
+
+}
+body{
+    background-color: #808080;
+    border : solid #000000;
+}
+.header{
+    background-color : rgb(64, 231, 237);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+     display: flex; 
+     flex-direction: columnx; 
+     justify-content: first baseline; 
+    }
+    .grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    footer{ 
+        display: flex;
+         justify-content: flex-end;
+     }
+     p,h2{ text-align: center; }
